@@ -1,5 +1,5 @@
 img {
-    width: 200px;
+    width: 13%;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 }
     
 .logo {
-    color: #f9faf8;
+    color: #F9FAF8;
     font-size: 24px;
 }
 
@@ -31,7 +31,7 @@ ul, li {
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 0 15%;
 }
 
 .nav {
@@ -44,3 +44,36 @@ ul, li {
     align-self: center;
 }
 
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 50px 15%;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.firstimg {
+    width: 300px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
