@@ -124,3 +124,36 @@ figcaption {
 
 }
 
+.lastsection {
+    padding: 80px 15%;
+}
+
+.bluebox {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 80px;
+    border-radius: 5px;
+}
+
+.one {
+    color: #F9FAF8;
+    font-size: 18px;
+    line-height: 0.001;
+}
+
+.two {
+    color: #E5E7EB;
+    font-size: smaller;
+    font-weight: 300;
+}
+
+.signup2 {
+    display: flex;
+    align-items: center;
+}
+
+.button2 {
+    border: solid #E5E7EB;
+    height: 30px;
+}
